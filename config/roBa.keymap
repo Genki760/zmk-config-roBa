@@ -46,7 +46,7 @@
         };
 
         double_quotation {
-            bindings = <&kp DOUBLE_QUOTES>;
+            bindings = <&kp LS(N2)>;
             key-positions = <20 21>;
         };
 
@@ -88,8 +88,8 @@
             bindings = <
 &kp Q             &kp L           &kp U         &kp COMMA                    &kp PERIOD                                         &kp F        &kp W  &lt 5 R  &kp Y  &kp P
 &kp E             &kp I           &kp A         &kp O                        &kp MINUS         &lt 6 SLASH        &kp UP_ARROW  &kp K        &kp T  &kp N    &kp S  &lt 5 H
-&kp Z             &kp X           &kp C         &kp V                        &kp LS(N8)        &kp LS(N9)         &kp TAB       &kp G        &kp D  &kp M    &kp J  &lt 4 B
-&kp LEFT_COMMAND  &kp LEFT_SHIFT  &kp LEFT_ALT  &lt_to_layer_0 3 LANGUAGE_1  &lt 2 LANGUAGE_2  &kp BACKSPACE      &kp ENTER     &lt 1 SPACE                         &kp LA(LEFT_CONTROL)
+&mt LEFT_CONTROL Z  &kp X           &kp C         &kp V                        &kp LS(N8)        &kp LS(N9)         &kp TAB       &kp G        &kp D  &kp M    &kp J  &lt 4 B
+&kp LEFT_SHIFT  &kp LEFT_COMMAND  &kp LEFT_ALT  &lt_to_layer_0 3 LANGUAGE_1  &lt 2 LANGUAGE_2  &kp BACKSPACE      &kp ENTER     &lt 1 SPACE                         &kp F18
             >;
         };
 
@@ -113,9 +113,9 @@
 
         ARROW {
             bindings = <
-&kp ESCAPE      &kp LC(LS(TAB))         &kp UP_ARROW    &kp LC(TAB)              &trans                       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans  &trans  &trans
-&kp HOME        &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW          &kp END  &trans      &trans  &kp COMMA             &kp PERIOD             &trans  &trans  &trans
-&kp LEFT_SHIFT  &kp LG(LS(LEFT_ARROW))  &trans          &kp LG(LS(RIGHT_ARROW))  &trans   &trans      &trans  &kp AT_SIGN           &trans                 &trans  &trans  &trans
+&kp ESCAPE      &kp LC(LS(TAB))         &kp UP_ARROW    &kp LC(TAB)              &trans                       &kp LS(N8)  &kp LS(N9)  &kp LS(COMMA)  &kp LS(PERIOD)  &kp BACKSLASH
+&kp HOME        &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW          &kp END  &trans      &trans  &kp COMMA  &kp PERIOD  &kp LS(INT1)  &kp LA(INT3)  &kp KP_PLUS
+&kp LEFT_SHIFT  &kp LG(LS(LEFT_ARROW))  &trans          &kp LG(LS(RIGHT_ARROW))  &trans   &trans      &trans  &kp AT_SIGN  &kp LS(INT3)  &kp LS(SQT)  &trans  &trans
 &trans          &trans                  &trans          &trans                   &trans   &trans      &trans  &trans                                                       &trans
             >;
 
